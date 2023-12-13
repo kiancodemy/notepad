@@ -1,9 +1,9 @@
+import classes from "./Post.module.css";
 function Post() {
-  const choose = Math.random() > 0.5 ? "kiab" : "khar";
   return (
-    <div>
-      <div>{choose}</div>
-      <div>get it</div>
+    <div className={classes.post}>
+      <p className={classes.author}>a</p>
+      <p className={classes.text}>get it</p>
     </div>
   );
 }

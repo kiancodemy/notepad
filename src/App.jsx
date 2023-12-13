@@ -1,8 +1,8 @@
-import Post from "./components/Post";
+import Postlist from "./components/Postlist";
 function App() {
   return (
     <>
-      <Post></Post>
+      <Postlist></Postlist>
     </>
   );
 }
