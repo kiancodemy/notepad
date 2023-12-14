@@ -1,9 +1,9 @@
 import classes from "./Post.module.css";
-function Post() {
+function Post({ author, text }) {
   return (
     <div className={classes.post}>
-      <p className={classes.author}>a</p>
-      <p className={classes.text}>get it</p>
+      <p className={classes.author}>{author}</p>
+      <p className={classes.text}>{text}</p>
     </div>
   );
 }
